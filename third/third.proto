@@ -198,6 +198,10 @@ message SearchLogsResp {
   uint32 total = 2;
 }
 
+message VideoDeleteReq {
+}
+message VideoDeleteResp {}
+
 service third {
   rpc PartLimit(PartLimitReq) returns (PartLimitResp);
   rpc PartSize(PartSizeReq) returns (PartSizeResp);
